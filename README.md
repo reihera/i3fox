@@ -1,6 +1,7 @@
 # i3fox
 A Firefox userchrome theme based on [TextFox](https://github.com/adriankarlen/textfox) that emulates the look and feel of the I3 Window Manager.
 
+![i forgor](/screenshots/1.png)
 ## Installation
 
 - Install [Tree Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-tabs/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
