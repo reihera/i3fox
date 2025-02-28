@@ -1,0 +1,124 @@
+:root {
+  --font-family: "monospace", Consolas, monospace;
+  --font-size: 14px;
+  --accent: #333333;
+  --bg: #111111 !important;
+  --border: #333333;
+  --border-transition: .2s ease;
+  --rounding: 0px;
+  --margin: 0.8rem;
+  --width: 1px;
+
+  /*
+   * ─[ overwrites ]───────────────────────────────────────────────────────
+  */
+
+  --link-color: var(--accent) !important;
+  --toolbox-bgcolor-inactive: #111111 !important;
+  --toolbox-bgcolor: #111111 !important;
+  --urlbarView-highlight-background: * !important;
+  --urlbar-box-active-bgcolor: #285577 !important;
+  --toolbox-non-lwt-bgcolor: var(--bg) !important;
+  --border-width: var(--width) !important;
+  --border-radius-small: var(--rounding) !important;
+  --border-radius-medium: var(--rounding) !important;
+  --toolbarbutton-border-radius: var(--rounding) !important;
+  --urlbar-box-bgcolor: #222222 !important;
+  --urlbar-box-text-color: #f2f5f7 !important;
+  --urlbarView-hover-background: #0c293e !important;
+  --toolbarbutton-hover-background: #0c293e !important;
+  --toolbarbutton-hover-outline-color: #285577 !important;
+  --urlbar-box-hover-bgcolor: #0c293e !important;
+  #root[data-toolbar-color-scheme="dark"] [data-color="yellow"] {
+    --color: #f6c177 !important;
+  }
+  #root[data-toolbar-color-scheme="dark"] [data-color="purple"] {
+    --color: #c4a7e7 !important;
+  }
+  #root[data-toolbar-color-scheme="light"] [data-color="yellow"] {
+    --color: #ea9d34 !important;
+  }
+  #root[data-toolbar-color-scheme="light"] [data-color="purple"] {
+    --color: #907aa9 !important;
+  }
+  [data-color="blue"] {
+    --color: #9ccfd8 !important;
+  }
+  [data-color="turquoise"] {
+    --color: #9ccfd8 !important;
+  }
+  [data-color="green"] {
+    --color: #3e8fb0 !important;
+  }
+  [data-color="orange"] {
+    --color: #f6c177 !important;
+  }
+  [data-color="red"] {
+    --color: #eb6f92 !important;
+  }
+  [data-color="pink"] {
+    --color: #ea9a97 !important;
+  }
+  .urlbar-input, #urlbar-scheme, .searchbar-textbox {
+      background-color: #222;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #333
+  }
+  #identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage) > .identity-box-button, #urlbar-label-box {
+      border-color: #333;
+      border-style: solid;
+      border-width: 1px;
+  }
+  #tracking-protection-icon-container {
+      background-color: var(--urlbar-box-bgcolor);
+      border-style: solid;
+      border-right-style: none;
+      border-color: #333;
+      border-width: 1px;
+  }
+
+  .urlbar-input-box, #identity-permission-box {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #333;
+      background-color: #222;
+
+  }
+  .urlbar-input-box:hover, #identity-permission-box:hover {
+      background-color: #0c293e;
+      border-color: #285577;
+      border-style: inherit;
+      border-width: inherit;
+  }
+  .urlbar-input-box:focus, #identity-permission-box:focus {
+      border-color: #4c7899;
+      background-color: #285577;
+  }
+  #identity-icon-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+    background-color: #222;
+    max-width: calc(30px + 13em);
+
+  }
+  #identity-icon-box:hover {
+    background-color: #0c293e;
+    border-color: #285577;
+    border-style: inherit;
+    border-width: inherit;
+    max-width: calc(30px + 13em);
+  }
+  #identity-icon-box:focus {
+    border-color: #4c7899;
+    background-color: #285577;
+    max-width: calc(30px + 13em);
+  }
+  #zoom-out-button, toolbar .toolbarbutton-1, #zoom-in-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+    background-color: #222 !important;
+  }
+}
